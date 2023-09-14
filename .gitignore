@@ -1,0 +1,7 @@
+### replit ###
+# Replit config file
+.replit
+.config
+
+# Replit Nix config file
+replit.nix

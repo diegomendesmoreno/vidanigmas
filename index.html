@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Vidanigmas</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="header">
+        <h1>Vidanigmas</h1>
+        <button onclick="playSound()"></button>
+    </div>
+    
+    <div class="background-image">
+        <img src="assets/vidane_cover.png" alt="Arte estilizada do Príncipe Vidane">
+    </div>
+    
+    <div class="container">
+        <button class="joke-button" onclick="tellJoke()">Me conta uma, vai...</button>
+        <div class="joke-container">
+            <div id="joke-setup-display"></div>
+            <div id="joke-punchline-display"></div>
+            
+            <div class="joke-source-container">
+                <div id="joke-source-title"></div>
+                <div id="joke-source-link">
+                    <a href="#" id="source-link" target="_blank"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
